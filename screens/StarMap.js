@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-export default class UpdateScreen extends Component {
+export default class StarMapScreen extends Component {
     render() {
         return (
             <View
@@ -10,7 +10,7 @@ export default class UpdateScreen extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>Updates Screen!</Text>
+                <Text>StarMap Screen!</Text>
             </View>
         )
     }

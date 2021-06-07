@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-export default class IssLocationScreen extends Component {
+export default class SpaceCraftScreen extends Component {
     render() {
         return (
             <View
@@ -10,7 +10,7 @@ export default class IssLocationScreen extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>ISS Location Screen!</Text>
+                <Text>SpaceCrafts Screen!</Text>
             </View>
         )
     }

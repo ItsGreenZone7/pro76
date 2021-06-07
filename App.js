@@ -4,9 +4,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import HomeScreen from "./screens/Home";
-import IssLocationScreen from "./screens/IssLocation";
-import MeteorScreen from "./screens/Meteors";
-import UpdateScreen from "./screens/Updates";
+import DailyPicScreen from './screens/DailyPic';
+import SpaceCraftScreen from './screens/SpaceCrafts';
+import StarMapScreen from './screens/StarMap';
 
 const Stack = createStackNavigator();
 
@@ -17,9 +17,9 @@ function App() {
         headerShown: false
       }}>
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="IssLocation" component={IssLocationScreen} />
-        <Stack.Screen name="Meteors" component={MeteorScreen} />
-        <Stack.Screen name="Updates" component={UpdateScreen} />
+        <Stack.Screen name="DailyPic" component={DailyPicScreen} />
+        <Stack.Screen name="SpaceCrafts" component={SpaceCraftScreen} />
+        <Stack.Screen name="StarMap" component={StarMapScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

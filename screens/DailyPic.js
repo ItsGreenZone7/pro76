@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-export default class MeteorScreen extends Component {
+export default class DailyPicScreen extends Component {
     render() {
         return (
             <View
@@ -10,7 +10,7 @@ export default class MeteorScreen extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>Meteor Screen!</Text>
+                <Text>DailyPic Screen!</Text>
             </View>
         )
     }
